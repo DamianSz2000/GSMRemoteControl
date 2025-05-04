@@ -15,6 +15,7 @@ Projekt umożliwia zdalne sterowanie urządzeniem za pomocą sieci GSM. Po odebr
 - karta SIM z usługami głosowymi
 
 ## Schemat elektryczny 🗺️
+![Schemat](./main/schemat.png)
 
 
 ## Konfiguracja ⚙️
