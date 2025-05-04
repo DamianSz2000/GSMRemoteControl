@@ -3,12 +3,14 @@
 ## Opis 📋
 Projekt umożliwia zdalne sterowanie urządzeniem za pomocą sieci GSM. Po odebraniu połączenia moduł SIM800L nasłuchuje tonów DTMF. Wprowadź 4-cyfrowy kod, a jeśli jest poprawny – dioda LED zaświeci się na 5 sekund! 💡
 
-## Wymagane komponenty 🔧
-- Arduino Uno
-- moduł GSM SIM800L
-- dioda LED czerwona (1,6V-2,4V)
-- 2 x kondensator 1000μF
-- rezystory
+## Wymagane komponenty oraz ich rola🔧
+- Arduino Uno (mikrokontroler do obsługi kodu)
+- moduł GSM SIM800L (moduł do komunikacji w sieci GSM)
+- dioda LED czerwona (1,6V-2,4V) (sygnalizuje poprawne działanie układu)
+- 2 x kondensator 1000μF (stabilizuje prąd w układzie, pobór prądu przez moduł SIM800L może skoczyć do 2A)
+- tranzystor 2N3904
+- bezpiecznik
+- rezystory (3x 1kΩ, 1x 330Ω, 1x 470Ω)
 - przewody połączeniowe
 - zasilacz DC 5V/3A
 - gniazdo DC
