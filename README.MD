@@ -10,7 +10,7 @@ Projekt umożliwia zdalne sterowanie urządzeniem za pomocą sieci GSM. Po odebr
 - Kondensatory
 - Rezystor do LED
 - Przewody połączeniowe
-- Zasilanie 5V/2A
+- Zasilanie 5V/3A
 - Karta SIM z usługami głosowymi
 
 ## Schemat elektryczny 🗺️
