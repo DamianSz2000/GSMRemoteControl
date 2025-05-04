@@ -1,4 +1,4 @@
-# GSM Zdalne Sterowanie z wykorzystaniem SIM800L 🚀
+# Zdalne Sterowanie z wykorzystaniem SIM800L 🚀
 
 ## Opis 📋
 Projekt umożliwia zdalne sterowanie urządzeniem za pomocą sieci GSM. Po odebraniu połączenia moduł SIM800L nasłuchuje tonów DTMF. Wprowadź 4-cyfrowy kod, a jeśli jest poprawny – dioda LED zaświeci się na 5 sekund! 💡
@@ -24,7 +24,7 @@ Projekt umożliwia zdalne sterowanie urządzeniem za pomocą sieci GSM. Po odebr
 3. W pliku `main.ino` dostosuj kod PIN karty SIM w komendzie `AT+CPIN`.
 4. W razie potrzeby zmień wartość `correctCode`.
 
-## Działanie 🎯
+## Sposób działania 🎯
 1. Moduł loguje się do sieci GSM.
 2. Odbiera połączenie (`RING`) i odpowiada `ATA`.
 3. Nasłuchuje tonów DTMF.
